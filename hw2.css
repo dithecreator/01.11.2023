@@ -1,0 +1,223 @@
+.round1{
+    background-color: aquamarine;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 350px;
+    left: 350px;
+    transition: transform 0.3s;
+}
+
+
+
+.round2{
+    background-color: rgb(33, 18, 242);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 400px;
+    left: 400px;
+    transition: transform 0.3s;
+}
+
+
+
+.round3{
+    background-color: rgb(242, 18, 130);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 500px;
+    left: 500px;
+    transition: transform 0.3s;
+}
+
+
+
+.round4{
+    background-color: rgb(178, 248, 15);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 200px;
+    left: 700px;
+    transition: transform 0.3s;
+}
+
+
+
+
+.round5{
+    background-color: rgb(145, 18, 242);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 300px;
+    left: 60px;
+    transition: transform 0.3s;
+}
+
+
+.round1:hover{
+    animation: round 1s infinite;
+
+}
+
+@keyframes round {
+    0%{
+
+    }
+
+    25%{
+        background-color: blueviolet;
+        transform: translateY(-20px);
+    }
+
+    50%{
+        background-color: rgb(43, 220, 226);
+        transform: translateY(0px);
+    }
+    75%{
+        background-color: rgb(226, 137, 43);
+        transform: translateY(-20px);
+    }
+}
+
+
+
+
+
+.round2:hover{
+    animation: round1 1s infinite;
+
+}
+
+@keyframes round1 {
+    0%{
+
+    }
+
+    25%{
+        background-color: blueviolet;
+        transform: translateY(-40px);
+    }
+
+    50%{
+        background-color: rgb(43, 220, 226);
+        transform: translateY(0px);
+    }
+    75%{
+        background-color: rgb(217, 43, 226);
+        transform: translateY(-60px);
+    }
+}
+
+
+
+
+
+.round3:hover{
+    animation: round4 1s infinite;
+
+}
+
+@keyframes round4 {
+    0%{
+
+    }
+
+    25%{
+        background-color: blueviolet;
+        transform: translateY(-40px);
+    }
+
+    50%{
+        background-color: rgb(43, 220, 226);
+        transform: translateY(0px);
+    }
+    75%{
+        background-color: rgb(217, 43, 226);
+        transform: translateY(-60px);
+    }
+
+
+    80%{
+        background-color: rgb(43, 156, 226);
+        transform: translateY(-40px);
+    }
+
+
+
+    85%{
+        background-color: rgb(184, 230, 104);
+        transform: translateY(-45px);
+    }
+}
+
+
+
+
+
+.round4:hover{
+    animation: round5 1s infinite;
+
+}
+
+@keyframes round5 {
+    0%{
+
+    }
+
+    25%{
+        background-color: blueviolet;
+        transform: scaleY(1.5);
+        transform: translateY(-40px);
+    }
+
+    50%{
+        background-color: rgb(43, 220, 226);
+        transform: translateY(0px);
+    }
+    75%{
+        background-color: rgb(217, 43, 226);
+        transform: translateY(-60px);
+    }
+}
+
+
+
+
+
+
+
+
+
+.round5:hover{
+    animation: round6 1s infinite;
+
+}
+
+@keyframes round6 {
+    0%{
+
+    }
+
+    25%{
+        background-color: rgb(168, 7, 69);
+        transform: translateY(-40px);
+    }
+
+    50%{
+        background-color: rgb(13, 14, 14);
+        transform: translateY(0px);
+    }
+    75%{
+        background-color: rgb(116, 172, 244);
+        transform: translateY(-60px);
+    }
+}

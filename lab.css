@@ -1,0 +1,103 @@
+.heart1 {
+
+
+    transform: scale(1.2, 1.2);
+    animation: heart11 1s infinite;
+  
+  }
+
+
+  .heart2 {
+
+
+    transform: scale(1.2, 1.2);
+    animation: heart12 1s infinite;
+  
+  }
+  
+
+
+  .heart3 {
+
+
+    transform: scale(1.2, 1.2);
+    animation: heart13 1s infinite;
+  
+  }
+  
+
+
+  .heart4 {
+
+
+    transform: scale(1.2, 1.2);
+    animation: heart14 1s infinite;
+  
+  }
+  
+
+
+  .heart5 {
+
+
+    transform: scale(1.2, 1.2);
+    animation: heart15 1s infinite;
+  
+  }
+  
+  @keyframes heart11 {
+    0%, 100% {
+      transform: scale(1.2);
+    }
+  
+    50% {
+      transform: scale(0.8);
+    }
+  }
+  
+  @keyframes heart12 {
+    0%, 100% {
+      transform: scale(0.8);
+    }
+  
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  
+
+
+  @keyframes heart13 {
+    0%, 100% {
+      transform: scale(1.2);
+    }
+  
+    50% {
+      transform: scale(0.8);
+    }
+  }
+  
+  @keyframes heart14 {
+    0%, 100% {
+      transform: scale(0.8);
+    }
+  
+    50% {
+      transform: scale(1.2);
+    }
+  }
+
+
+  @keyframes heart15 {
+    0%, 100% {
+      transform: scale(1.2);
+    }
+  
+    50% {
+      transform: scale(0.8);
+    }
+  }
+  
+
+
+  
